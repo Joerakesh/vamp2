@@ -10,6 +10,7 @@
     font-size: 30px;
     text-align: left;
     float: none;
+    padding-left: 50px;
 }
 
 body{
@@ -35,7 +36,7 @@ li a, .dropbtn{
 }
 
 li a:hover, .dropdown:hover .dropbtn{
-    background-color: red;
+    background-color: rgb(57, 211, 231);
 }
 
 li .dropdown{
@@ -57,8 +58,21 @@ li .dropdown{
     text-align: left;
 }
 .dropdown-content a:hover{
-    background-color: #f1f1f1;
+    background-color: rgb(57, 211, 231);
 }
 .dropdown:hover .dropdown-content{
     display: block;
+}
+
+#logo{
+    position: fixed;
+    top: 0;
+    left: 0;
+  
+}
+#logo img{
+    width: 50px;
+    height: auto;
+    padding-top: 10px;
+    padding-left: 5px;
 }
