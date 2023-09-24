@@ -6,7 +6,7 @@
 }
 
 .font-title h1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
     text-align: left;
     float: none;
@@ -14,7 +14,8 @@
 }
 
 body{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+
 }
 ul {
     list-style-type: none;
